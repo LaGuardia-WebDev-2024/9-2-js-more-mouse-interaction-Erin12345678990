@@ -6,8 +6,9 @@ setup = function(){
 
 //draw Function - will run repeatedly
 draw = function() {
+  if (mousePressed){ 
     ellipse(mouseX, mouseY, 20, 20);
-
+}
   //***in the video they use if(mouseIsPressed)
   //***in github we use if(mousePressed)
 
